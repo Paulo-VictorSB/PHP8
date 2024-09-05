@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: linear-gradient(to bottom, rgb(233, 233, 233), rgb(146, 146, 146));
+            height: 30%;
+            width: 20%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column nowrap;
+            gap: 30px;
+        }
+
+        form {
+            display: flex;            
+            flex-flow: column nowrap;
+            gap: 5px;
+        }
+
+        .error {
+            color: white;
+            background-color: red;
+        }
+
+        .success {
+            color: white;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><h1>Paulo Nuvem</h1></div>
+        <form action="index.php" method="post">
+            <label >Nome: <input type="text" name="nome" id="" required></label>
+            <label >Email: <input type="email" name="email" id="" required></label>
+            <label >Data de nascimento: <input type="date" name="datanasc" id=""></label>
+            <label >Telefone: <input type="number" name="telefone" id=""></label>
+            <label >Endereço: <input type="text" name="endereco" id=""></label>
+            <input type="submit" value="Registrar">
+        </form>
+    </div>
+</body>
+</html>
