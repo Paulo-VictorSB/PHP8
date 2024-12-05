@@ -1,0 +1,62 @@
+/* Estilo básico para o layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho da página */
+header {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Botões personalizados */
+.btn-custom {
+    background-color: #007bff; /* Cor primária personalizada */
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Estilo para os cartões de eventos */
+.event-card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dos cartões */
+.event-card h5 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Rodapé fixo */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Margem para o conteúdo principal */
+.main-content {
+    margin: 20px;
+    padding-bottom: 60px; /* Para evitar sobreposição do rodapé */
+}

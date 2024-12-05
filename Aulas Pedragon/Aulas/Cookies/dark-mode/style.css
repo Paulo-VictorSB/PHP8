@@ -1,0 +1,43 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+button {
+    padding: 5px 10px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.164);
+}
+
+#lightMode {
+    background-color: white;
+}
+
+#lightMode > a {
+    color: black;
+}
+
+#darkMode {
+    background-color: black;
+    border-color: white;
+}
+
+#darkMode > a {
+    color: white;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.lightMode {
+    background-color: white;
+    color: black;
+}
+
+#container-botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
